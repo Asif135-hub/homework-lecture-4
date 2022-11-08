@@ -1,0 +1,3 @@
+student name: Md Asif Iqbal
+student number: 692835
+student class: 1D

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@font-face {
+    font-family: MyFont;
+    src: url(font/GUEVARA_.TTF);
+	src: url(font/monofonto rg.otf);
+                }  
+@font-face {
+    font-family: my2font;
+	src: url(font/Saudagar.ttf);
+                } 
+p{
+	color: 	#000066;
+	font-family: Verdana;
+}
+h1{
+	color:#0066ff;
+	font-family: MyFont;
+}
+h2{
+color: #660033;
+font-family: my2font;
+}
+table{
+	color: #0066ff;
+	font-family: "Lucida Console",monospace;
+}
+th{
+	font-weight: bold;
+}
+td{
+	font-style: italic;
+}
+body{
+	background-color:#ffffff;
+	font-family: monospace;
+}
+form{
+	color: #0040ff;
+	font-family:'Roboto';
+}

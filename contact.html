@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/ihavestyle.css"/>
+<title>Contact Page</title>
+</head>
+<body>   
+	<img src="img/mia.svg" alt="Cat">
+	<form  autocomplete="on">
+		<fieldset>
+			<legend>Contact by email</legend> 
+				<h2>
+					Please select the topic you would like to contact us about. 
+					So, we can serve you better and faster
+				</h2>
+				<label for="question">
+					Where is your question about?
+				</label>
+				<select name="question">
+					<option value="order">Make a choice</option>
+					<option value="cancel">I have a question about an order</option>
+					<option value="gift">I like to have more information about a computer</option>
+					<option value="other">I have another question</option>
+				</select>
+				<p></p>
+			<fieldset>
+				<h2>- Contact about</h2>
+				<label for="Main Subject">
+					Main subject
+				</label>
+				<select name="Main subject">
+					<option value="order">Choose topic</option>
+					<option value="order">Ordering and delivery</option>
+					<option value="cancel">Cancel and return</option>
+					<option value="gift">Gift voucher</option>
+					<option value="other">Other question </option>
+				</select>
+				<p></p>
+				<label for="note">   
+					note*
+				</label>
+				<p></p>
+				<textarea name="message" rows="10" cols="50" placeholder="Write your note here.." required></textarea>
+				<span>
+					The notes can be up to 5000 characters.
+				</span>
+				<p></p>
+				<label for="file">   
+					Add an attachment? optional
+				</label>
+				<input type="file" name="file" />
+				<span>
+					Up to 10 MB in size.
+				</span>
+				<p></p>
+				<label for="flname">   
+					First and Last name*::
+				</label>
+				<input type="text" name="flname" required>	
+				<p></p>
+				<label for="phone">   
+					Phone number
+				</label>
+				<input type="tel" name="phone">
+				<p></p>
+				<label for="email">   
+					E-Mail address*
+				</label>
+				<input type="email" name="email" required >
+				<p></p>
+				<button type="submit">   
+					Send email
+				</button>
+			</fieldset>
+		</fieldset>
+	</form>
+		<footer>
+			&copy; 2000 All right reserve to the company.
+		</footer>		
+	</body>
+</html>
